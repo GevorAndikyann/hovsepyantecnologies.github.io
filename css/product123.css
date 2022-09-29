@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#menuLinks {
+    display: flex;
+    margin-left: 22%;
+}
+
+#menuLinks h2 {
+    margin-left: 0  ;
+}
+
+.error {
+    height: 15%;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 9vh;
+}
+
+.sectionForProduct {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+/*.selectProdType {*/
+/*   display: none;*/
+/*}*/
+.sectionForProduct article {
+    width: 28%;
+    height: 70%;
+    margin-top: 1%;
+    margin-left: 4%;
+    /*background-color: #f3f3f3*/
+}
+
+.sectionForProduct article div {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+#aboutProduct {
+    width: 60%;
+}
+
+#aboutProduct h2 {
+    color: #407b2b;
+    font-weight: 500;
+}
+
+#aboutProduct ul li {
+    font-style: italic;
+    list-style: disc;
+    padding-top: 2%;
+}
+
+#aboutProduct p {
+    padding:0;
+}
+
+.productImg {
+    width: 100%;
+    height: 100%;
+}
+
+/*#closedForm {*/
+/*    font-size: 30px;*/
+/*    color: #e2e2e2;*/
+/*    position: relative;*/
+/*    left: 97%;*/
+/*    cursor:pointer;*/
+/*}*/
+#userData h3 {
+    text-align: center;
+    color: #407b2b;
+    font-weight: 500;
+    font-family: 'Font Awesome 5 Free';
+}
+
+#DataForm {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 7% 2%;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+    row-gap: 20%;
+}
+
+
+#DataForm input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 5px;
+    border: none;
+    color: #407b2b;
+    background-color: #e2e2e2;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#DataForm input::placeholder {
+    color: #407b2b;
+    font-weight: 600;
+}
+
+#DataForm .submitBtn {
+    position: relative;
+    left: -50%;
+    top: 25%;
+    color: #f2f2f2;
+    background-color: #407b2b;
+    font-size: 22px;
+}
+
+@media (max-width: 820px) {
+    #menuLinks {
+        margin-left: 15%;
+    }
+    /*#userData {*/
+    /*    height: 345px;*/
+    /*}*/
+    #DataForm {
+        padding: 10% 2%;
+    }
+}
+@media (max-width: 768px) {
+    .pageTitleBox {
+        width: 50%;
+    }
+    #menuLinks {
+        margin-left: 0;
+    }
+    #menu {
+        margin-left: 15%;
+    }
+    #userData {
+        height: 360px;
+    }
+    #DataForm {
+        height: 70%;
+    }
+    footer {
+        height: 350px;
+    }
+    .footerInfoBox img {
+        width: 42%;
+        height: 32%;
+    }
+    .footerInfoBox ul {
+        font-size: 20px;
+        margin-left: 62%;
+     }
+    .footerInfoBox h2 {
+        left: 20%;
+    }
+    .footer-icons {
+        margin-top: 15%;
+    }
+    .footer-icons i {
+        font-size: 35px;
+    }
+}
+@media (max-width: 426px) {
+    #menuLinks,#menuLinks a {
+        margin-left: 10%;
+    }
+    .sectionForProduct {
+        width: 100%;
+        height: 1290px;
+    }
+    .sectionForProduct article {
+        width: 100%;
+        height: 40%;
+        margin-top: -2%;
+        margin-left: 0;
+    }
+    #aboutProduct {
+        width: 100%;
+        height: 33%;
+        margin: 0;
+    }
+    #aboutProduct h2 {
+        padding: 0;
+    }
+    p{
+        padding: 0 1%;
+    }
+    #aboutProduct p{
+        color: black;
+        font-style: normal;
+    }
+    #aboutProduct ul {
+        padding: 0;
+        margin-left: 5%;
+    }
+    /*footer*/
+
+    #userData {
+        width: 100%;
+        height: 310px;
+    }
+    #DataForm{
+        height: 50%;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    #DataForm .submitBtn {
+        left: -50%;
+    }
+}
+@media (max-width: 400px) {
+    #DataForm {
+        height: 50%;
+        display: grid;
+        grid-template-columns: 170px 170px;
+    }
+}

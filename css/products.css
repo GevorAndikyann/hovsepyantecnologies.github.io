@@ -1,0 +1,111 @@
+.sectionForProducts {
+   width: 100%;
+   height: 680px;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #f2f2f2;
+}
+
+/*.selectProdType {*/
+/*   display: none;*/
+/*}*/
+
+.sectionForProducts article {
+   width: 28%;
+   height: 70%;
+   margin-top: 1%;
+   margin-left: 4%;
+   background-color: #f3f3f3
+}
+
+.sectionForProducts article div {
+   width: 100%;
+   height: 100%;
+   margin-top: 2%;
+}
+
+.sectionForProducts article input {
+   width: 35%;
+   height: 35px;
+   margin-left: 10%;
+   margin-top: 4%;
+   padding-bottom: 1%;
+   font-size: 17px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.productReadMore {
+   /*background-color: #407b2b;*/
+   color: #407b2b;
+   border: solid 1px darkgreen;
+}
+
+.productOrder {
+   background-color: #407b2b;
+   color: #f2f2f2;
+   border: none;
+}
+
+.productReadMore:hover {
+   border: none;
+   background-color: #7a9c6e;
+   color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+   #menuLinks {
+      margin-left: 10%;
+   }
+   .sectionForProducts {
+      height: 470px;
+   }
+   .sectionForProducts article {
+      height: 84%;
+   }
+   .sectionForProducts article input{
+      font-size: 13px;
+   }
+   footer {
+      height: 300px;
+   }
+}
+@media(max-width: 540px) {
+   .sectionForProducts {
+      height: 335px;
+   }
+   .sectionForProducts article {
+      height: 80%;
+   }
+   .footerInfoBox img {
+      width: 31%;
+      height: 20%;
+      top: 20%;
+      left: 4%;
+   }
+   .footerInfoBox h2 {
+      left: 12%;
+   }
+   .footerInfoBox ul {
+      margin-left: 46%;
+   }
+   .footer-icons {
+      margin-top: 14%;
+   }
+
+}
+@media (max-width: 426px) {
+   .sectionForProducts {
+      width: 100%;
+      height: 1500px;
+   }
+
+   .sectionForProducts article {
+      width: 76%;
+      height: 430px;
+      margin-left: 12%;
+   }
+   .sectionForProducts article input {
+      margin-top: 3%;
+   }
+}
